@@ -14,8 +14,8 @@ def test_code1():
     assert main.name("tony") == "tony", "name('tony') failed"
 
 def test_code2():
-    assert main.favorites("red", 42) == "Your favorite color is red and your favorite number is 42.", "favorites('red', 42) failed. Check your spelling, capital letters, and make sure you have a period at the end of the sentance. See the reamde for exact formatting."
-    assert main.favorites("green", 11) == "Your favorite color is green and your favorite number is 11.", "favorites('green', 11) failed. Check your spelling, capital letters, and make sure you have a period at the end of the sentance. See the reamde for exact formatting."
+    assert main.favorites("red", "42") == "Your favorite color is red and your favorite number is 42.", "favorites('red', 42) failed. Check your spelling, capital letters, and make sure you have a period at the end of the sentance. See the reamde for exact formatting."
+    assert main.favorites("green", "11") == "Your favorite color is green and your favorite number is 11.", "favorites('green', 11) failed. Check your spelling, capital letters, and make sure you have a period at the end of the sentance. See the reamde for exact formatting."
 
 def test_code3():
     assert main.bigAdd(1,1,1,1,1) == 5, "bigAdd(1, 1, 1, 1, 1) == 5 failed"
